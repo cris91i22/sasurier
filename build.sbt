@@ -23,7 +23,8 @@ lazy val commonSettings = Seq(
     "com.typesafe.slick" %% "slick" % "3.2.3",
     "com.github.tminglei" %% "slick-pg" % "0.16.3",
     "org.scalactic" %% "scalactic" % "3.0.5",
-    "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+    "org.scalatest" %% "scalatest" % "3.0.5" % "test",
+    "io.paradoxical" %% "atmos" % "2.2"
   ),
   libraryDependencies += filters,
   fork in Test := true,
